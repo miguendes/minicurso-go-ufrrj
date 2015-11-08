@@ -22,9 +22,9 @@ func main() {
 	a := 9
 	b := 2
 
-	if a > b {
-		fmt.Printf("%d é maior que %d", a, b)
-	} else if a == b {
+	if (a > b) {
+			fmt.Printf("%d é maior que %d", a, b)
+	} else if (a == b) {
 		fmt.Printf("%d é igual a %d", a, b)
 	} else {
 		fmt.Printf("%d é menor ou igual que %d", a, b)

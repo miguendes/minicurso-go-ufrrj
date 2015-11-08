@@ -24,7 +24,8 @@ func main() {
 
 	switch {
 	case b == 4:
-		fmt.Println("b igual a 4")
+		fmt.Println("b igual a 4 e passando direto")
+
 	case a == 0:
 		fmt.Println("a igual a 0")
 	case a == 2:
@@ -35,9 +36,9 @@ func main() {
 
 	s := "vamos ver quantas vogais existem nesta string"
 	vogais, consoantes := 0, 0 // inicialização multipla
-	for _, v := range s {
-		switch v {
-		case 'a', 'e', 'i', 'o', 'u':
+	for i, _ := range s {
+		switch i {
+		case 1, 2:
 			vogais++
 		default:
 			consoantes++

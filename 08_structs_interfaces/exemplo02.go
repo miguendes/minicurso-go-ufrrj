@@ -35,10 +35,10 @@ func (c Circulo) calculaArea() float64 {
 
 func main() {
 	c := Circulo{5.0}
-	q := Quadrado{3.0}
-	r := Retangulo{2.0, 3.0}
+	//q := Quadrado{3.0}
+	//r := Retangulo{2.0, 3.0}
 
-	figuras := []Figura{c, q, r}
+	figuras := []Figura{c}
 
 	for _, figura := range figuras {
 		fmt.Println("figura = ", figura.calculaArea())

@@ -23,7 +23,9 @@ func main() {
 
 	fmt.Println("len:", len(m))
 
-	if v, prs := m["treze"]; prs { //  prs == true
+
+	v, prs := m["treze"]
+	if  prs { //  prs == false
 		fmt.Println("v está no map:", v)
 	} else {
 		fmt.Println("13 não está no map")
@@ -42,7 +44,13 @@ func main() {
 	m["dez"] = 10
 	m["onze"] = 11
 
-	for k, v := range m {
-		fmt.Println(k, ", ", v)
+	for _, v := range m {
+		fmt.Println(", ", v)
 	}
+	
+	delete(m, "dez")
+	
+	fmt.Printf("tipo: %T - Elem: %v", m, m)
+	
+	
 }

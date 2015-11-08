@@ -15,6 +15,7 @@ func main() {
 	fmt.Printf("%+v\n", a)
 
 	s := fmt.Sprintf("%t", true)
+	
 	fmt.Printf("s: %s\n", s)
 
 	s = fmt.Sprintf("%T", "true")

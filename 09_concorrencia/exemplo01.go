@@ -22,7 +22,10 @@ func main() {
 	go f("goroutine1")
 	go f("goroutine2")
 
+
 	var input string
 	fmt.Scanln(&input)
 	fmt.Println("pronto")
+	
+	
 }

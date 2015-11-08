@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
-import "reflect"
+import (
+	 "fmt"
+	 "reflect"
+ )
 
 func main() {
 	// declaração de variaveis em Go
@@ -21,8 +23,9 @@ func main() {
 	fmt.Println(myString)
 	fmt.Println(myBoolean)
 
-	var myInt64 int64 // int8, int16, int32
-	var myUint uint32 // uint8, uint16, ...
+	var ( 
+		myInt64 int64; myUint uint32
+	 )
 
 	myInt64 = -563255666556555455
 	fmt.Println(myInt64)
@@ -43,4 +46,8 @@ func main() {
 
 	var intToFloat = float64(myInt)
 	fmt.Println(reflect.TypeOf(intToFloat))
+	
+	fmt.Println(intToFloat)
+					fmt.Println(float32toInt64)
+	
 }

@@ -40,7 +40,7 @@ func main() {
 	fmt.Println()
 
 	i = 0
-	for { // for true {
+	for false { // for true {
 		fmt.Print(i, " ")
 		i++
 	}

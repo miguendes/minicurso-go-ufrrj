@@ -1,3 +1,3 @@
-Escrevendo a primeira linha
-Escrevendo a segunda linha
-Escrevendo a terceira linha
+Lendo a primeira linha
+Lendo a segunda linha
+Lendo a terceira linha
