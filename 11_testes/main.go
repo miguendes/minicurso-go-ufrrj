@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"minicurso/11_testes/calclib"
+	"minicurso-go-ufrrj/11_testes/calclib"
 )
 
 func main() {
